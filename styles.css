@@ -1,24 +1,60 @@
-#first {
+.rectangle1 {
     width: 600px;
-    height: 600px;
-    background: red;
-    overflow: hidden;
+    height: 400px;
+    background-color: lavender;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid grey;
+    padding: 10px;
   }
-  
-  #second {
-    position: relative;
+
+ 
+  .rectangle2 {
+    width: 450px;
+    height: 250px;
+    background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid grey;
+    padding: 10px;
+  }
+
+
+  .rectangle3 {
     width: 300px;
-    height: 300px;
-    margin: auto;
-    margin-top: 25px;
-    background: black;
-    overflow: hidden;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid grey;
+    padding: 10px;
   }
-  
-  #third {
-    width: 150px;
-    height: 150px;
-    margin-top: 18.75px;
-    margin-left: 18.75px;
-    background: orange;
+
+
+  .rectangle-text1 {
+    position: relative;
+    top: -4%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .rectangle-text2 {
+    position: relative;
+    top: 28%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rectangle-text3 {
+    position: relative;
+    top: -7%;
+    left: 95%;
+    transform: translate(-50%, -50%);
   }
